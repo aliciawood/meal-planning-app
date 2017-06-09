@@ -17,6 +17,7 @@
     "babel-preset-react": "6.24.1",
     "express": "4.15.3",
     "gulp": "3.9.1",
+    "mongoose": "4.10.5",
     "react": "15.5.4",
     "react-dom": "15.5.4",
     "react-router": "4.1.1",
