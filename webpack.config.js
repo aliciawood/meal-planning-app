@@ -2,7 +2,7 @@ var webpack = require('webpack');
 var path = require('path');
 var webpackHotMiddleware = require('webpack-hot-middleware');
 var BUILD_DIR = path.resolve(__dirname, 'src/public');
-var APP_DIR = path.resolve(__dirname, 'src/app');
+var APP_DIR = path.resolve(__dirname, 'src');
 
 var config = {
   context: APP_DIR,
