@@ -7,7 +7,7 @@ var express = require('express'),
 	mongoose = require('mongoose'),
 	config = require('./config');
 
-var userRouter = require('./src/routers/user');
+var userRouter = require('./src/services/api/routers/user');
 
 const app = express(),
 	DIST_DIR = path.join(__dirname, 'src'),
