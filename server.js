@@ -8,6 +8,7 @@ var express = require('express'),
 	config = require('./config');
 
 var userRouter = require('./src/services/api/routers/user');
+var recipeRouter = require('./src/services/api/routers/recipe');
 
 const app = express(),
 	DIST_DIR = path.join(__dirname, 'src'),
@@ -24,6 +25,7 @@ app.use(webpackHotMiddleware(compiler));
 app.use(express.static(DIST_DIR));
 
 app.use('/api',userRouter);
+app.use('/api',recipeRouter);
 
 
 app.get("*", (req, res, next) => {  
