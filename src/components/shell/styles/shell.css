@@ -1,0 +1,28 @@
+.leftRail{
+	 background: hotpink;
+  	width: 25%;
+	-ms-flex: 0 100px;
+	-webkit-box-flex:  0;
+	-moz-box-flex:  0;
+	-ms-box-flex:  0;
+	box-flex:  0; 
+}
+
+.header ul{
+	list-style-type: none;
+}
+.header li{
+	display: inline;
+	padding: 10px;
+	
+}
+.header header{
+	display: flex;
+	justify-content: center;
+
+}
+
+.links{
+	text-decoration: none;
+	color: black;
+}
